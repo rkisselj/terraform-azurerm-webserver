@@ -35,7 +35,7 @@ variable "os" {
 }
 
 variable "size" {
-  default     = "Standard_D1_v2"
+  default     = "Standard_F2"
   type        = string
   description = "VM SKU to provision"
 }
